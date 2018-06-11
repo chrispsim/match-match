@@ -1,0 +1,68 @@
+body {
+  -webkit-animation: colorchange infinite 15s;
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #f7184c;} /* Red */
+  25%  {background: #f7ce18;} /* Yellow */
+  50%  {background: #189df7;} /* Blue */
+  75%  {background: #07fcaa;} /* Green */
+  100% {background: #f7184c;} /* Red */
+}
+
+
+.header {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 20%;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-family: 'Bangers', cursive;
+  color: white;
+}
+
+.header p {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 80px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #494949;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+  font-family: sans-serif;
+}
+
+.button:hover {background-color: #494949}
+
+.button:active {
+  background-color: #494949;
+  box-shadow: 0 1.5px #666;
+  transform: translateY(4px);
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 12px;
+}
