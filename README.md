@@ -15,3 +15,4 @@ Match Match is a browser based memory card matching game.
 
 1. Download the Repository.
 2. Open `main.html` file to enter the main menu of the game.
+3. https://kalixte.github.io/Match-Match/main - hosted with ♥ by Github.
