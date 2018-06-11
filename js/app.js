@@ -30,7 +30,7 @@ function generateCards() {
     }
 }
 
-// Shuffle function sourced from http://stackoverflow.com/a/2450976
+// Shuffle function sourced from Stack Overflow
 function shuffle(array) {
     var currentIndex = array.length
         , temporaryValue, randomIndex;
@@ -172,7 +172,7 @@ function playGame() {
     addStars(3);
 }
 
-// Shows result at the end of the game
+// Shows result at the end of the game, result function sourced from Stack Overflow
 function showResults() {
     $('#sucess-result').empty();
     timer.pause();
